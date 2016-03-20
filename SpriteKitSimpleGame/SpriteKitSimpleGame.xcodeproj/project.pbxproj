@@ -18,6 +18,7 @@
 		20A5C59F1C9C98640044C900 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 20A5C59C1C9C98640044C900 /* background-music-aac.caf */; };
 		20A5C5A01C9C98640044C900 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 20A5C59D1C9C98640044C900 /* pew-pew-lei.caf */; };
 		20A5C5A11C9C98640044C900 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 20A5C59E1C9C98640044C900 /* sprites.atlas */; };
+		20A5C5A31C9F4C330044C900 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A5C5A21C9F4C330044C900 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		20A5C59C1C9C98640044C900 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		20A5C59D1C9C98640044C900 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		20A5C59E1C9C98640044C900 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		20A5C5A21C9F4C330044C900 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				20A5C5711C9C59610044C900 /* Assets.xcassets */,
 				20A5C5731C9C59610044C900 /* LaunchScreen.storyboard */,
 				20A5C5761C9C59610044C900 /* Info.plist */,
+				20A5C5A21C9F4C330044C900 /* GameOverScene.swift */,
 			);
 			path = SpriteKitSimpleGame;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				20A5C56B1C9C59610044C900 /* GameScene.swift in Sources */,
 				20A5C56D1C9C59610044C900 /* GameViewController.swift in Sources */,
+				20A5C5A31C9F4C330044C900 /* GameOverScene.swift in Sources */,
 				20A5C5671C9C59610044C900 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
